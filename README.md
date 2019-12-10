@@ -2,7 +2,7 @@
 
 ### Universalicons Icons for React Native
 
-369 Icons
+343 Icons
 
 ## Usage
 
@@ -14,9 +14,9 @@ import Icon from 'react-native-ico-universalicons';
 render() {
     return (
         <Fragment>
-          <Icon name="home" />
-          <Icon name="file" height="40" width="40" />
-          <Icon name="smile" color="red" />
+          <Icon name="discs" />
+          <Icon name="sale" height="40" width="40" />
+          <Icon name="dollar-sign" color="red" />
         </Fragment>
     );
 }
