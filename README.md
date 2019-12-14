@@ -25,7 +25,7 @@ render() {
 
 ## List of icons
 
-- [List of Universalicons Icons](static/universalicons.md)
+- [List of Universalicons Icons](http://ico.simpleness.org/pack/universalicons)
 
 ## Installation
 
