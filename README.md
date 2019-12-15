@@ -1,8 +1,8 @@
-# Universalicons Icons for React Native
+# universalicons Icons for React Native
 
 ### react-native-ico-universalicons
 
-343 Icons
+369 Icons
 
 ## Usage
 
@@ -14,9 +14,9 @@ import Icon from 'react-native-ico-universalicons';
 render() {
     return (
         <>
-          <Icon name="discs" />
-          <Icon name="sale" height="40" width="40" />
-          <Icon name="dollar-sign" color="red" />
+          <Icon name="home" />
+          <Icon name="file" height="40" width="40" />
+          <Icon name="smile" color="red" />
         </>
     );
 }
@@ -25,7 +25,7 @@ render() {
 
 ## List of icons
 
-- [List of Universalicons Icons](http://ico.simpleness.org/pack/universalicons)
+- [List of universalicons Icons](http://ico.simpleness.org/pack/universalicons)
 
 ## Installation
 
@@ -69,7 +69,7 @@ height | yes | 20 | height of the icon | 40
 
 ## Icons Made by
 
-[Freepik](https://www.flaticon.com/authors/freepik)
+[Dave Gandy](https://www.flaticon.com/authors/dave-gandy)
 
 ## Created by
 
