@@ -1,8 +1,8 @@
-# universalicons Icons for React Native
+# Universalicons Icons for React Native
 
 ### react-native-ico-universalicons
 
-369 Icons
+343 Icons
 
 ## Usage
 
@@ -25,7 +25,7 @@ render() {
 
 ## List of icons
 
-- [List of universalicons Icons](http://ico.simpleness.org/pack/universalicons)
+- [List of Universalicons Icons](http://ico.simpleness.org/pack/universalicons)
 
 ## Installation
 
