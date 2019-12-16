@@ -1,4 +1,4 @@
-module.exports = `
+module.exports = {
 	'angry-face-of-square-shape-and-straight-lines': `<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="34px" height="34px" viewBox="0 0 34 34" style="enable-background:new 0 0 34 34;" xml:space="preserve">
 <g>
@@ -5093,4 +5093,4 @@ module.exports = `
 		C4.732,19.421,5.586,18.855,7.292,18.855z"/>
 </g>
 </svg>
-``
+`}
