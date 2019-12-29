@@ -2,7 +2,13 @@
 
 ### react-native-ico-universalicons
 
-343 Icons
+369 Vector Icons for React Native
+
+<img src="./static/arrow-pointing-to-left.png" alt="arrow-pointing-to-left" width="150" height="150"> <img src="./static/arrow-turning-to-right.png" alt="arrow-turning-to-right" width="150" height="150"> <img src="./static/arrows-circle.png" alt="arrows-circle" width="150" height="150">
+
+## List of icons
+
+- [List of Universalicons Icons](http://ico.simpleness.org/pack/universalicons)
 
 ## Usage
 
@@ -22,10 +28,6 @@ render() {
 }
 
 ```
-
-## List of icons
-
-- [List of Universalicons Icons](http://ico.simpleness.org/pack/universalicons)
 
 ## Installation
 
@@ -61,7 +63,7 @@ Returns a SvgXml icon by name and group.
 
  name | optional | default value | description | examples
 ------|----------|---------------|-------------|---------
-name | no |  | name of file | "arrow-pointing-to-left"
+name | no |  | name of icon | "arrow-pointing-to-left"
 color | yes | | line color, css style | "#00ff00", "#0f0", "green"
 width | yes | 20 | width of the icon | 40
 height | yes | 20 | height of the icon | 40
