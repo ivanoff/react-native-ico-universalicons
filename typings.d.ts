@@ -345,10 +345,35 @@ declare module 'react-native-ico-universalicons' {
       'winking-smiling-face' |
       'yen-sign';
 
+    type backgroundType = 'circle' | 'rect' | 'button';
+
+    type positionType = 'top' | 'bottom' | 'right' | 'left' |
+      'top_right' | 'top_left' | 'bottom_right' | 'bottom_left';
+
+    type backgroundTypeObj = {
+      type?: backgroundType;
+      color?: string;
+      radius?: number;
+      borderRadius?: number;
+    };
+
+    type badgeTypeObj = {
+      value?: number | string;
+      fontSize?: string;
+      position?: positionType;
+      color?: string;
+      backgroundColor?: string;
+      radius?: number;
+    };
+
     interface IconProps {
       name: iconNames;
-      color: string;
-      size: number;
+      width?: number;
+      height?: number;
+      color?: string;
+      stroke?: number;
+      background?: backgroundType | backgroundTypeObj;
+      badge?: number | string | badgeTypeObj;
     }
 
     const Icon: (props: IconProps) => ReactNode;
@@ -356,4 +381,3 @@ declare module 'react-native-ico-universalicons' {
     export { iconNames };
     export default Icon;
 }
-
