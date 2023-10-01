@@ -1,5 +1,6 @@
 declare module 'react-native-ico-universalicons' {
     import { ReactNode } from 'react';
+    import { SvgProps, AdditionalProps } from 'react-native-svg';
 
     type iconNames = 'angry-face-of-square-shape-and-straight-lines' |
       'angry-face-of-square-shape-outline' |
@@ -376,7 +377,7 @@ declare module 'react-native-ico-universalicons' {
       badge?: number | string | badgeTypeObj;
     }
 
-    const Icon: (props: IconProps) => ReactNode;
+    const Icon: (props: IconProps & SvgProps & AdditionalProps) => ReactNode;
 
     export { iconNames };
     export default Icon;
